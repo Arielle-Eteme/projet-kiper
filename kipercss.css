@@ -7,6 +7,7 @@ body {
     display: block;
     box-sizing: border-box;
     background-color: #f7f8fa;
+    padding-bottom: 50px;
 }
 .navbar {
     background-color: #f7f8fa;
@@ -47,15 +48,19 @@ body {
     text-decoration: none;
 
 }
+.topnav a:hover {
+    text-decoration: none;
+}
 .topnav a.active{
     background-color:rgb(121, 193, 241) ;
     margin-left: 50px;
     white-space: nowrap;
     color:white;
-    margin-right: -255px;
-    height: 10px;
+    height: 50px;
 }
-
+.navbar-center a {
+    color: black;
+}
 
 .navbar-center{
     float: left;
@@ -87,18 +92,17 @@ body {
     font-family: Garamond;
 
 }
-table{
-    border: 1px solid black;
-    margin-left: 550;
-    width: 12%;
-    float: none;
+.part22{
+    margin-top: 50;
     cursor: pointer;
     
-  }
-  table tr th a {
-      text-decoration: none;
-      font-size: 20;
-  }
+}
+.part22 a:hover {
+    text-decoration: none;
+    background-color: #2a6d98;
+    color: white !important;
+}
+  
 /*contenu de la page*/
 .container {
     background-color: white!important;
@@ -113,8 +117,8 @@ table{
 
 .part311 {
     display: block;
-    margin-left: 125;
-    margin-top: 100;
+   
+    margin-top: 40;
 }
 
 .part312 {
@@ -142,11 +146,12 @@ table{
 .part4 {
     background-color: white!important;
     display: block;
-    padding: 0 250;
+    padding: 0 100;
 }
 .part41 {
     display: block;
     margin-top: 100;
+    margin-bottom: 100;
     background-color: white!important;
 }
 .part411{
@@ -163,36 +168,48 @@ table{
 }
 
 .part412 {
-    display: contents;
-    float: left;
+    display: block;
     background-color: white!important;
 }
+.row1 {
+    display: flex;
+    padding-bottom: 30;
+}
+.row2 {
+    display: flex;
+}
 .part4121 {
-    margin-left: 100;
-    width: 500;
-    height: 350;
-    display: contents;
+    
+    width: 890;
+    height: 310;
+    float: left;
+    margin-left: 0;
+    border: 1px solid #bbbbf2;;
 }
 .part4122 {
     float: left;
     margin-left: 100;
-    width: 500;
-    height: 350;
-    display: contents;
+    border: 1px solid #bbbbf2;;
+    width: 890;
+    height: 310;
+    margin-top: 50;
+  
 }
 .part4123 {
+    width: 890;
+    height: 310;
     float: left;
-    display: contents;
-    margin-left: 100;
-    width: 500;
-    height: 350;
+    margin-left: 0;
+    border: 1px solid #bbbbf2;;
 }
 .part4124 {
     float: left;
-    display: contents;
     margin-left: 100;
-    width: 500;
-    height: 350;
+    border: 1px solid #bbbbf2;;
+    width: 890;
+    height: 310;
+    margin-top: 50;
+  
 }
 
 .title5 {
@@ -201,11 +218,14 @@ table{
     font-size: 25px;
     font-weight: 500;
     line-height: 1.2;
+    text-align: center;
 }
 .texte{
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 1rem;
+    padding: 20;
+    text-align: center;
 }
 /*partie5*/
 
@@ -239,6 +259,9 @@ table{
     line-height: 1.2;
     font-family: Poppins,sans-serif;
 }
+
+/*part6*/
+
 .part61 {
     display: flex;
     padding: 10px 0;
@@ -272,13 +295,16 @@ table{
 }
 .part72 {
     margin-bottom: 100px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: -25px;
+    margin-left: -65px;
     display: flex;
     float: left;
 }
 .part72 a {
-    margin-left: 100;
+    margin-left: 75;
+    text-decoration: none;
+}
+.part72 a:hover {
     text-decoration: none;
 }
 .title72 {
@@ -286,18 +312,46 @@ table{
     padding-bottom: 1rem!important;
     padding-top: 1rem!important;
     font-size: 20px;
-    
+   
+}
+.card {
+    border: none !important;
+}
+.card img:hover {
+    zoom: 1;
 }
 .text-card {
     color: #6e6e6e!important;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 1rem;
     
 }
+/*part 8*/
+
+.part81 {
+    display: flex;
+    background-color: white!important;
+}
+
+.part811 {
+    display: flex;
+    margin-top: 40;
+}
+
+.part812 {
+    float: left;
+    margin-right: 70;
+}
+.title8 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Poppins,sans-serif;
+    padding-top: 100px;
+}
+
 .footer {
-    border-top: 2px solid #dee2e6!important;
-    box-sizing: border-box;
     font-family: Poppins,sans-serif;
     color: #000;
     font-size: 1rem;
@@ -305,11 +359,172 @@ table{
     line-height: 1.5;
     text-align: center;
     background-color: white!important;
+    margin-top: 70;
+    padding-top: 30;
+    padding-bottom: 30;
 }
+.footer-text a:hover {
+    text-decoration: none;
+}
+
+/*part9*/
+
+.part9 {
+    background-image: url(bibliotheque.jpeg);
+    height: 400px;
+}
+.part91 {
+    background:#57b1e9 !important ;
+    opacity: 0.9;
+    height: 100%;
+    width: 65%;
+    padding: 110px 100px 100 200;
+    margin-top: 100px;
+}
+.title9 {
+    color:white!important;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Poppins,sans-serif;
+    opacity: 1 !important;
+}
+.part91 ul li a {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 40 px;
+    font-family: Poppins,sans-serif;
+   
+}
+.part91 ul li a:hover {
+    text-decoration: none;
+    opacity: 0.5 !important;
+}
+.part91 ul li {
+    list-style: none;
+    padding-bottom: 10;
+}
+
+/*part10*/
+
+.part10 {
+    background-image: url(acceder-bios-pc.jpg);
+    height: 400px;
+}
+.part101 {
+    background:#57b1e9 !important ;
+    opacity: 0.9;
+    height: 100%;
+    width: 65%;
+    padding: 110px 100px 100 200;
+    margin-top: 50px;
+}
+.title10 {
+    color:white!important;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Poppins,sans-serif;
+    opacity: 1 !important;
+}
+.part101 ul li a {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 40 px;
+    font-family: Poppins,sans-serif;  
+}
+.part101 ul li a:hover {
+    text-decoration: none;
+    opacity: 0.5 !important;
+}
+.part101 ul li {
+    list-style: none;
+    padding-bottom: 10;
+}
+
+/*part11*/
+
+.part11 {
+    background-image: url(pc.jpg);
+    height: 400px;
+}
+.part111 {
+    background:#57b1e9 !important ;
+    opacity: 0.9;
+    height: 100%;
+    width: 65%;
+    padding: 110px 100px 100 200;
+    margin-top: 50px;
+}
+.title11 {
+    color:white!important;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Poppins,sans-serif;
+    opacity: 1 !important;
+}
+.part111 ul li a {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 40 px;
+    font-family: Poppins,sans-serif;  
+}
+.part111 ul li a:hover {
+    text-decoration: none;
+    opacity: 0.5 !important;
+}
+.part111 ul li {
+    list-style: none;
+    padding-bottom: 10;
+}
+
+/*part12*/
+
+.part12 {
+    margin-top: 3rem;
+    border: 1px solid transparent;
+    background: rgb(214, 222, 233) !important;
+    height: 350px;
+}
+.texte12{
+    margin-left: 238px;
+    margin-right: 262px;
+    margin-top: 90px;
+}
+.part12 a {
+    border: 2px solid #2a6d98;
+    padding: 10px 33px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: .875rem;
+    color: #2a6d98;
+}
+.part12 a:hover {
+    text-decoration: none;
+    background-color: #2a6d98;
+    color: white;
+}
+.title121 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Poppins,sans-serif;
+    color: #000;
+    font-size: 30px;
+    
+}
+.title122 {
+    text-align: center;
+    color: #6e6e6e!important;
+    font-size: 20px;
+    font-family: Poppins,sans-serif;
+}
+
 .end-1 {
     display: flex;
-    float: left;
-    flex-wrap: wrap;
+  
+   
     margin-right: -15px;
     margin-left: -15px;
     font-family: Poppins,sans-serif;
@@ -321,7 +536,7 @@ table{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    padding: 50 100;
+    padding: 30 45;
     background-color: white!important;
 }
 .column1{
@@ -344,8 +559,13 @@ table{
 .column4 {
     
     padding-left: 80px;
+    color: #6e6e6e!important;
 }
 .column3 a {
+    text-decoration: none;
+    color: #6e6e6e!important;
+}
+.column3 a:hover {
     text-decoration: none;
 }
 .col-title {
@@ -381,7 +601,6 @@ form {
 }
 .button-col2{
     cursor: pointer;
-    transition: all .5s ease-in-out;
     color: #fff;
     font-size: .875rem;
     font-family: Poppins,sans-serif;
@@ -389,6 +608,10 @@ form {
     outline: none;
     background-color: #221e1e;
     border-color: #221e1e;
+}
+.button-col2 :hover{
+    background-color: white;
+    color: black;
 }
 
 
@@ -413,11 +636,4 @@ form {
         margin-left: 60;
         margin-bottom: 15;
     }
-    .topnav a.active{
-        margin-left:0; 
-        margin-right: 0;
-    }
-    table {
-        margin-right: 50%;
-        float: right;
-    }}
+    
