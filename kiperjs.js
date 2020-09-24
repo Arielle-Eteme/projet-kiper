@@ -1,3 +1,6 @@
 
- function myFunction () { document.getElementById("demo").innerHTML = "hi";  
-}
+
+$('.menu-amburger').click(function(){
+
+    $('.topnav').addClass('navbar-center2')
+})
